@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { AmbientButton, PercussionButton } from "./PlaySound";
+import { BirdSoundButton, StreetSoundButton } from "./PlaySound";
 import "./App.css";
 
 function App() {
@@ -9,11 +9,11 @@ function App() {
       <Navbar />
       <main>
         <div className="centered">
-          <AmbientButton />
+          <BirdSoundButton />
         </div>
 
         <div className="centered">
-          <PercussionButton />
+          <StreetSoundButton />
         </div>
       </main>
     </div>
