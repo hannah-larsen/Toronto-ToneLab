@@ -1,2 +1,2 @@
 # SoundBytes
-An interactive web app utilizing sound and UI!
+An interactive web app utilizing sound and UI.
