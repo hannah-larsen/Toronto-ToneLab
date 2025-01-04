@@ -78,6 +78,8 @@ B99470
 .navbar-content {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
 }
 
 .navbar h1 {
@@ -91,7 +93,10 @@ B99470
 }
 
 .mute-button {
-  justify-content: right;
+  justify-content: center;
+  height: 32px;
+  width: auto;
+
 }
 
 h1 {
@@ -104,7 +109,6 @@ h1 {
 
 body {
   background-color: white;
-  background-image: url('assets/pixilart-drawing.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
